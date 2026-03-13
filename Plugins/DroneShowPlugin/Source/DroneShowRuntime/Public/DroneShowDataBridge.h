@@ -1,10 +1,10 @@
-﻿#pragma once
+﻿
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-#include "DroneShowDataBridge.generated.h"
-
 UCLASS(BlueprintType, Blueprintable)
-class UDroneShowDataBridge : public UObject
+UCLASS()
+
 {
     GENERATED_BODY()
 public:
@@ -32,3 +32,5 @@ private:
     static UDroneShowDataBridge* CreateSingleton(UWorld* World);
     static TWeakObjectPtr<UDroneShowDataBridge> SingletonInstance;
 };
+
+ #include "DroneShowDataBridge.generated.h"

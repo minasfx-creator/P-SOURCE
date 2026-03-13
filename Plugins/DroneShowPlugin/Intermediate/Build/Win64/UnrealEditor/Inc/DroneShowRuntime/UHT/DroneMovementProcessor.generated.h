@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UDroneMovementProcessor_Statics;
 DRONESHOWRUNTIME_API UClass* Z_Construct_UClass_UDroneMovementProcessor_NoRegister();
 
-#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_9_INCLASS_NO_PURE_DECLS \
+#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDroneMovementProcessor(); \
 	friend struct ::Z_Construct_UClass_UDroneMovementProcessor_Statics; \
@@ -31,7 +31,7 @@ public: \
 	DECLARE_SERIALIZER(UDroneMovementProcessor)
 
 
-#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_9_ENHANCED_CONSTRUCTORS \
+#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_13_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UDroneMovementProcessor(UDroneMovementProcessor&&) = delete; \
 	UDroneMovementProcessor(const UDroneMovementProcessor&) = delete; \
@@ -41,12 +41,12 @@ public: \
 	NO_API virtual ~UDroneMovementProcessor();
 
 
-#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_6_PROLOG
-#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_9_GENERATED_BODY \
+#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_10_PROLOG
+#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_9_INCLASS_NO_PURE_DECLS \
-	FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_9_ENHANCED_CONSTRUCTORS \
+	FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_13_INCLASS_NO_PURE_DECLS \
+	FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

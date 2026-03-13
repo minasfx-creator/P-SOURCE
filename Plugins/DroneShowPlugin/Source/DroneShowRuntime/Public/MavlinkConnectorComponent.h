@@ -1,10 +1,9 @@
-﻿#pragma once
+﻿
+#pragma once
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Sockets.h"
 #include "Networking.h"
-#include "MavlinkConnectorComponent.generated.h"
-
 UENUM()
 enum class EMavlinkMode : uint8
 {
@@ -13,7 +12,8 @@ enum class EMavlinkMode : uint8
 };
 
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
-class UMavlinkConnectorComponent : public UActorComponent
+UCLASS()
+
 {
     GENERATED_BODY()
 public:
@@ -40,3 +40,5 @@ private:
     FRunnableThread* ReceiverThread;
     void ReceiverLoop();
 };
+
+ #include "MavlinkConnectorComponent.generated.h"

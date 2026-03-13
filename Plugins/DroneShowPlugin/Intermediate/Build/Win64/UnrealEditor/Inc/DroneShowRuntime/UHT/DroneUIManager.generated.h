@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UDroneUIManager **********************************************************
-#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_9_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execEmergencyLandAll); \
 	DECLARE_FUNCTION(execPlayIntroSequence); \
 	DECLARE_FUNCTION(execShowMainDashboard);
@@ -26,7 +26,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_UDroneUIManager_Statics;
 DRONESHOWRUNTIME_API UClass* Z_Construct_UClass_UDroneUIManager_NoRegister();
 
-#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_9_INCLASS_NO_PURE_DECLS \
+#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDroneUIManager(); \
 	friend struct ::Z_Construct_UClass_UDroneUIManager_Statics; \
@@ -37,7 +37,7 @@ public: \
 	DECLARE_SERIALIZER(UDroneUIManager)
 
 
-#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_9_ENHANCED_CONSTRUCTORS \
+#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_10_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDroneUIManager(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -49,13 +49,13 @@ public: \
 	NO_API virtual ~UDroneUIManager();
 
 
-#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_6_PROLOG
-#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_9_GENERATED_BODY \
+#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_7_PROLOG
+#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_9_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_9_INCLASS_NO_PURE_DECLS \
-	FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_9_ENHANCED_CONSTRUCTORS \
+	FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_10_INCLASS_NO_PURE_DECLS \
+	FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneUIManager_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

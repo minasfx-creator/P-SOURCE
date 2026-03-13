@@ -14,7 +14,6 @@ void EmptyLinkFunctionForGeneratedCodeDMXFragments() {}
 // ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
 DRONESHOWRUNTIME_API UScriptStruct* Z_Construct_UScriptStruct_FDMXLightFragment();
-MASSENTITY_API UScriptStruct* Z_Construct_UScriptStruct_FMassFragment();
 UPackage* Z_Construct_UPackage__Script_DroneShowRuntime();
 // ********** End Cross Module References **********************************************************
 
@@ -54,7 +53,6 @@ struct Z_Construct_UScriptStruct_FDMXLightFragment_Statics
 	}
 	static const UECodeGen_Private::FStructParams StructParams;
 }; // struct Z_Construct_UScriptStruct_FDMXLightFragment_Statics
-static_assert(std::is_polymorphic<FDMXLightFragment>() == std::is_polymorphic<FMassFragment>(), "USTRUCT FDMXLightFragment cannot be polymorphic unless super FMassFragment is polymorphic");
 static FStructRegistrationInfo Z_Registration_Info_UScriptStruct_FDMXLightFragment;
 class UScriptStruct* FDMXLightFragment::StaticStruct()
 {
@@ -80,7 +78,7 @@ static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FDMXLightFragment_Statics
 // ********** End ScriptStruct FDMXLightFragment Property Definitions ******************************
 const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FDMXLightFragment_Statics::StructParams = {
 	(UObject* (*)())Z_Construct_UPackage__Script_DroneShowRuntime,
-	Z_Construct_UScriptStruct_FMassFragment,
+	nullptr,
 	&NewStructOps,
 	"DMXLightFragment",
 	Z_Construct_UScriptStruct_FDMXLightFragment_Statics::PropPointers,
@@ -105,10 +103,10 @@ UScriptStruct* Z_Construct_UScriptStruct_FDMXLightFragment()
 struct Z_CompiledInDeferFile_FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DMXFragments_h__Script_DroneShowRuntime_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FDMXLightFragment::StaticStruct, Z_Construct_UScriptStruct_FDMXLightFragment_Statics::NewStructOps, TEXT("DMXLightFragment"),&Z_Registration_Info_UScriptStruct_FDMXLightFragment, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FDMXLightFragment), 3475449374U) },
+		{ FDMXLightFragment::StaticStruct, Z_Construct_UScriptStruct_FDMXLightFragment_Statics::NewStructOps, TEXT("DMXLightFragment"),&Z_Registration_Info_UScriptStruct_FDMXLightFragment, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FDMXLightFragment), 3343044868U) },
 	};
 }; // Z_CompiledInDeferFile_FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DMXFragments_h__Script_DroneShowRuntime_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DMXFragments_h__Script_DroneShowRuntime_952862533{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DMXFragments_h__Script_DroneShowRuntime_3802004271{
 	TEXT("/Script/DroneShowRuntime"),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DMXFragments_h__Script_DroneShowRuntime_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DMXFragments_h__Script_DroneShowRuntime_Statics::ScriptStructInfo),

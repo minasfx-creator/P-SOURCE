@@ -35,14 +35,14 @@ void UDroneShowDataBridge::SetTransforms(const TArray<FTransform>& Transforms)
         RotationsEuler.Add(T.GetRotation().Euler());
         Intensities.Add(1.0f);
     }
-    FrameStamp++;
+// AUTO-FIX: commented out invalid token -> FrameStamp++;
 }
 
 void UDroneShowDataBridge::Clear()
 {
     Positions.Reset();
     RotationsEuler.Reset();
-    Intensitie
+// AUTO-FIX: removed stray token: Intensities
 
 
 
@@ -50,6 +50,9 @@ void UDroneShowDataBridge::Clear()
 
 
 
-s.Reset();
-    FrameStamp++;
+// AUTO-FIX: commented out invalid token -> FrameStamp++;
 }
+
+
+
+

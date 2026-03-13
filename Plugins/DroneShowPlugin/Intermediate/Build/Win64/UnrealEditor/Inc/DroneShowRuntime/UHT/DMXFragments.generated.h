@@ -18,10 +18,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FDMXLightFragment *************************************************
 struct Z_Construct_UScriptStruct_FDMXLightFragment_Statics;
-#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DMXFragments_h_9_GENERATED_BODY \
+#define FID_u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DMXFragments_h_10_GENERATED_BODY \
 	friend struct ::Z_Construct_UScriptStruct_FDMXLightFragment_Statics; \
-	DRONESHOWRUNTIME_API static class UScriptStruct* StaticStruct(); \
-	typedef FMassFragment Super;
+	DRONESHOWRUNTIME_API static class UScriptStruct* StaticStruct();
 
 
 struct FDMXLightFragment;

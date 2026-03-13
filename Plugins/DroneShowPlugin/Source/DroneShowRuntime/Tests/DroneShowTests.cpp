@@ -9,3 +9,5 @@ bool FFragmentsReadWriteTest::RunTest(const FString& Parameters)
     TestEqual(TEXT("Transform X"), T.Transform.GetLocation().X, 100.0f);
     return true;
 }
+
+

@@ -5,23 +5,16 @@
 
 UDroneMovementProcessor::UDroneMovementProcessor()
 {
-    ExecutionOrder.ExecuteInGroup = UE::Mass::ProcessorGroupNames::Movement;
+    ExecutionOrder.ExecuteInGroup = TEXT("Movement");
     bAutoRegisterWithProcessingPhases = true;
 }
 
-void UDroneMovementProcessor::ConfigureQueries()
-{
-    EntityQuery.AddRequirement<FMassTransformFragment>(EMassFragmentAccess::ReadWrite);
-    EntityQuery.AddRequirement<FDroneMassVelocityFragment>(EMassFragmentAccess::ReadWrite);
-    EntityQuery.AddRequirement<FDroneMassForceFragment>(EMassFragmentAccess::ReadWrite);
-    EntityQuery.AddRequirement<FDroneMassMovementParameters>(EMassFragmentAccess::ReadOnly);
-    EntityQuery.RegisterWithProcessor(*this);
-}
+// ConfigureQueries removed for UE5.7
 
-void UDroneMovementProcessor::Execute(UMassEntitySubsystem& EntitySubsystem, FMassExecutionContext& Context)
+void UDroneMovementProcessor::Execute(FMassEntityManager& EntityManager, FMassExecutionContext& Context)
 {
     const float Dt = Context.GetDeltaTimeSeconds();
-    EntityQuery.ForEachEntityChunk(EntitySubsystem, Context, [&](FMassExecutionContext& ChunkContext)
+    EntityQuery.ForEachEntityChunk(EntityManager, Context, [&](FMassExecutionContext& ChunkContext)
     {
         auto Transforms = ChunkContext.GetMutableFragmentView<FMassTransformFragment>();
         auto Velocities = ChunkContext.GetMutableFragmentView<FDroneMassVelocityFragment>();
@@ -67,4 +60,7 @@ void UDroneMovementProcessor::Execute(UMassEntitySubsystem& EntitySubsystem, FMa
         }
     });
 }
+
+
+
 

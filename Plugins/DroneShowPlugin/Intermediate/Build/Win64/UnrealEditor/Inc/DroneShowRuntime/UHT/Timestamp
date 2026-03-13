@@ -1,10 +1,11 @@
-C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DMXFragments.h
 C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneMovementProcessor.h
+C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DMXFragments.h
 C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneShowDataBridge.h
 C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneUIManager.h
 C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\FireOneExporter.h
 C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\Fragments.h
 C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\GDTFParser.h
-C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\MavlinkConnectorComponent.h
+C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\SVGParser.h
 C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\PyroPhysics.h
+C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\MavlinkConnectorComponent.h
 C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\VVIZExporter.h

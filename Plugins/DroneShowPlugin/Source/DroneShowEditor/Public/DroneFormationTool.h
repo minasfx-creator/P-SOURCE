@@ -1,11 +1,11 @@
-﻿#pragma once
+﻿
+#pragma once
 #include "CoreMinimal.h"
 #include "BaseTools/ScriptableClickDragTool.h"
 #include "Components/SplineComponent.h"
-#include "DroneFormationTool.generated.h"
-
 UCLASS()
-class UDroneFormationTool : public UScriptableClickDragTool
+UCLASS()
+
 {
     GENERATED_BODY()
 public:
@@ -30,4 +30,4 @@ private:
     FVector RaycastToWorld(const FInputDeviceRay& Ray) const;
 };
 
-
+ #include "DroneFormationTool.generated.h"

@@ -1,10 +1,3 @@
-﻿#pragma once
-#include "CoreMinimal.h"
+﻿
+\tGENERATED_BODY()
 
-class FDroneShowDataBridge
-{
-public:
-    static void Initialize() {}
-    static void Shutdown() {}
-    // TODO: substituir por implementação real
-};

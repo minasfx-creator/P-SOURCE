@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\#" />
+    <None Include="..\..\$msbuild" />
+    <None Include="..\..\.editorconfig" />
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\5" />
+    <None Include="..\..\8)" />
+    <None Include="..\..\AddSplinePoint(Hit" />
+    <None Include="..\..\auto_fix_drone_show.ps1" />
+    <None Include="..\..\auto_fix_log.txt" />
+    <None Include="..\..\build_log.txt" />
+    <None Include="..\..\ClearSplinePoints()" />
+    <None Include="..\..\Close()" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini.bak_20260312113934">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\CreateInternetAddr()" />
+    <None Include="..\..\CreateSocket(NAME_DGram" />
+    <None Include="..\..\deploy_and_clean_drone_show_final.ps1" />
+    <None Include="..\..\deploy_and_clean_drone_show_refined.ps1" />
+    <None Include="..\..\DestroySocket(Socket)" />
+    <None Include="..\..\FindChildNode(ChannelPool)" />
+    <None Include="..\..\first20_errors.txt" />
+    <None Include="..\..\Get-Content" />
+    <None Include="..\..\GetAttribute(Function)" />
+    <None Include="..\..\GetAttribute(Index))" />
+    <None Include="..\..\GetAttribute(Name)" />
+    <None Include="..\..\GetContextObject()" />
+    <None Include="..\..\GetLocationAtDistanceAlongSpline(Distance" />
+    <None Include="..\..\GetLocationAtSplinePoint(i" />
+    <None Include="..\..\GetNumberOfSplinePoints()" />
+    <None Include="..\..\GetSplineLength()" />
+    <None Include="..\..\Microsoft.Component.MSBuild" />
+    <None Include="..\..\Plugins)" />
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DroneShowPlugin">
+      <UniqueIdentifier>{1A7A33D6-E9EE-336A-A31E-7B8407234CAE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DroneShowPlugin\DroneShowPlugin.uplugin">
+      <Filter>Plugins\DroneShowPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\DroneShowPlugin\Source">
+      <UniqueIdentifier>{8B5E06BA-7E47-370B-A1ED-3DA085D13611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DroneShowPlugin\Source\DroneShowEditor">
+      <UniqueIdentifier>{BFC60C1B-9979-3268-A7E6-73845614283B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\DroneShowEditor.Build.cs">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\DroneShowEditor.Build.cs.bak_20260311232132">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\DroneShowEditor.Build.cs.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\DroneShowEditor.Build.cs.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\DroneShowEditor.Build.cs.bak_20260311233115">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor</Filter>
+    </None>
+    <Filter Include="Plugins\DroneShowPlugin\Source\DroneShowEditor\Private">
+      <UniqueIdentifier>{0D96F7DA-F795-38EA-A8CB-236BB01C5F84}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Private\DroneShowEditorModule.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Private\MovieSceneDroneEvalTemplate.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Private\MovieSceneDroneEvalTemplate.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Private\MovieSceneDroneEvalTemplate.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Private\MovieSceneDroneTrack.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Private\MovieSceneDroneTrack.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Private\MovieSceneDroneTrack.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Private</Filter>
+    </None>
+    <Filter Include="Plugins\DroneShowPlugin\Source\DroneShowEditor\Public">
+      <UniqueIdentifier>{E44A5933-E793-3924-8569-7391A10A53C1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\DroneFormationTool.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\DroneShowEditorModule.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\MovieSceneDroneEvalTemplate.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\MovieSceneDroneEvalTemplate.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\MovieSceneDroneEvalTemplate.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\MovieSceneDroneSection.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\MovieSceneDroneSection.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\MovieSceneDroneSection.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\MovieSceneDroneTrack.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\MovieSceneDroneTrack.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowEditor\Public\MovieSceneDroneTrack.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowEditor\Public</Filter>
+    </None>
+    <Filter Include="Plugins\DroneShowPlugin\Source\DroneShowNiagara">
+      <UniqueIdentifier>{7FADBD29-42C0-3894-9635-F72EDF2871A7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\DroneShowNiagara.Build.cs">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\DroneShowNiagara.Build.cs.bak_20260311232132">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\DroneShowNiagara.Build.cs.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\DroneShowNiagara.Build.cs.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\DroneShowNiagara.Build.cs.bak_20260311233115">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara</Filter>
+    </None>
+    <Filter Include="Plugins\DroneShowPlugin\Source\DroneShowNiagara\Private">
+      <UniqueIdentifier>{1CC58CEA-AA5C-3719-A1F3-EA8C6EAC5AAD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\Private\NiagaraDataInterfaceDroneArray.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\Private\NiagaraDataInterfaceDroneArray.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\Private\NiagaraDataInterfaceDroneArray.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara\Private</Filter>
+    </None>
+    <Filter Include="Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public">
+      <UniqueIdentifier>{3BDE8CD4-5C33-36DC-BB2C-BCAD83ECF31B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public\DroneShowDataBridge.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public\NiagaraDataInterfaceDroneArray.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public\NiagaraDataInterfaceDroneArray.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public\NiagaraDataInterfaceDroneArray.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public\NiagaraDataInterfaceDroneArray.h.bak_20260311233116">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public</Filter>
+    </None>
+    <Filter Include="Plugins\DroneShowPlugin\Source\DroneShowRuntime">
+      <UniqueIdentifier>{99A7081D-AA32-3385-AAB8-B74DA831ABCF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\DroneShowRuntime.Build.cs">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\DroneShowRuntime.Build.cs.bak_20260311232132">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\DroneShowRuntime.Build.cs.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\DroneShowRuntime.Build.cs.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\DroneShowRuntime.Build.cs.bak_20260311233115">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime</Filter>
+    </None>
+    <Filter Include="Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private">
+      <UniqueIdentifier>{C5BD0C57-04BF-336F-B9F2-A1553F13D5B5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\ArtNetSender.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\ArtNetSender.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\ArtNetSender.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\ArtNetSender.cpp.bak_20260312113935">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneMovementProcessor.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneMovementProcessor.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneMovementProcessor.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneMovementProcessor.cpp.bak_20260311233115">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneShowDataBridge.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneShowDataBridge.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneShowDataBridge.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneShowDataBridge.cpp.bak_20260311233116">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneUIManager.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneUIManager.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\DroneUIManager.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\FireOneExporter.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\FireOneExporter.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\FireOneExporter.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\GDTFParser.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\GDTFParser.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\GDTFParser.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\MavlinkConnectorComponent.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\MavlinkConnectorComponent.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\MavlinkConnectorComponent.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\PyroPhysics.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\PyroPhysics.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\PyroPhysics.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\SVGParser.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\SVGParser.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\SVGParser.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\VVIZExporter.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\VVIZExporter.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private\VVIZExporter.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Private</Filter>
+    </None>
+    <Filter Include="Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public">
+      <UniqueIdentifier>{B8700D13-9F2D-347C-8537-CF8CE10D118D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\ArtNetSender.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\ArtNetSender.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\ArtNetSender.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DMXFragments.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DMXFragments.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DMXFragments.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneMovementProcessor.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneMovementProcessor.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneMovementProcessor.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneMovementProcessor.h.bak_20260311233115">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneShowDataBridge.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneShowDataBridge.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneShowDataBridge.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneShowDataBridge.h.bak_20260311233116">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneShowMassEntityTypes.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneUIManager.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneUIManager.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\DroneUIManager.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\FireOneExporter.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\FireOneExporter.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\FireOneExporter.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\Fragments.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\Fragments.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\Fragments.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\Fragments.h.bak_20260311233115">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\GDTFParser.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\GDTFParser.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\GDTFParser.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\MavlinkConnectorComponent.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\MavlinkConnectorComponent.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\MavlinkConnectorComponent.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\PyroPhysics.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\PyroPhysics.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\PyroPhysics.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\SVGParser.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\SVGParser.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\SVGParser.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\VVIZExporter.h">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\VVIZExporter.h.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\VVIZExporter.h.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public</Filter>
+    </None>
+    <Filter Include="Plugins\DroneShowPlugin\Source\DroneShowRuntime\Tests">
+      <UniqueIdentifier>{16E97F54-BBCD-345C-9936-D65EA0613D17}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Tests\DroneShowTests.cpp">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Tests</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Tests\DroneShowTests.cpp.bak_20260311232139">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Tests</Filter>
+    </None>
+    <None Include="..\..\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Tests\DroneShowTests.cpp.bak_20260311232210">
+      <Filter>Plugins\DroneShowPlugin\Source\DroneShowRuntime\Tests</Filter>
+    </None>
+    <Filter Include="Plugins\VisualStudioTools">
+      <UniqueIdentifier>{41769F9C-1A97-316F-BB54-C3A5E5B67BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VisualStudioTools\Config">
+      <UniqueIdentifier>{CB5E8725-3658-331E-9E61-542E2997D7C5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VisualStudioTools\Config\FilterPlugin.ini">
+      <Filter>Plugins\VisualStudioTools\Config</Filter>
+    </None>
+    <Filter Include="Plugins\VisualStudioTools\Source">
+      <UniqueIdentifier>{1D6F83A9-DB28-3ED2-9726-5CBD49662E2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper">
+      <UniqueIdentifier>{DA293EF3-DE5E-3E0C-8AB9-5D9B37A141A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper\Private">
+      <UniqueIdentifier>{D4B7A11D-48EF-383A-B625-62F4B65D3FD8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper\Private\VisualStudioBlueprintDebuggerHelperModule.cpp">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper\Private\VisualStudioBlueprintDebuggerHelperModule.h">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper\Private</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper\VisualStudioBlueprintDebuggerHelper.Build.cs">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioBlueprintDebuggerHelper</Filter>
+    </None>
+    <Filter Include="Plugins\VisualStudioTools\Source\VisualStudioTools">
+      <UniqueIdentifier>{E48AC123-3582-39B0-901B-970708A27A9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VisualStudioTools\Source\VisualStudioTools\Private">
+      <UniqueIdentifier>{75F6F5BA-F8E5-3E94-8434-FA6DC9ABBA70}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\BlueprintAssetHelper.cpp">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\BlueprintAssetHelpers.h">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\BlueprintReferencesCommandlet.cpp">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\BlueprintReferencesCommandlet.h">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\FSmartBSTR.h">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioTools.cpp">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsBlueprintBreakpointExtension.cpp">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsBlueprintBreakpointExtension.h">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsCommandlet.cpp">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsCommandlet.h">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsCommandletBase.cpp">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VisualStudioToolsCommandletBase.h">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VSServerCommandlet.cpp">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VSServerCommandlet.h">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VSTestAdapterCommandlet.cpp">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Private\VSTestAdapterCommandlet.h">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VisualStudioTools\Source\VisualStudioTools\Public">
+      <UniqueIdentifier>{333EB5AC-492F-3ED7-9C7F-15701C1818EC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\Public\VisualStudioTools.h">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VisualStudioTools\Source\VisualStudioTools\VisualStudioTools.Build.cs">
+      <Filter>Plugins\VisualStudioTools\Source\VisualStudioTools</Filter>
+    </None>
+    <None Include="..\..\Plugins\VisualStudioTools\VisualStudioTools.uplugin">
+      <Filter>Plugins\VisualStudioTools</Filter>
+    </None>
+    <None Include="..\..\PyroDroneMasterStudio.uplugin" />
+    <None Include="..\..\PyroDroneMS.uproject" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\RegisterComponent()" />
+    <None Include="..\..\SendTo(Packet.GetData()" />
+    <None Include="..\..\SetClosedLoop(false)" />
+    <None Include="..\..\SetLocationAtSplinePoint(i" />
+    <None Include="..\..\SetPort(Port)" />
+    <None Include="..\..\shadertoolsconfig.json" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PyroDroneCore">
+      <UniqueIdentifier>{F0395EE9-2EF0-3DC9-922B-36F1F041F5B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PyroDroneCore\Private">
+      <UniqueIdentifier>{696508D2-6EA8-3879-A6DE-F159836CF17B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PyroDroneCore\Private\PyroDroneCore.cpp">
+      <Filter>Source\PyroDroneCore\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\PyroDroneCore\Public">
+      <UniqueIdentifier>{117CBC4E-78A0-3B03-8A11-28AF0A392A17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PyroDroneCore\Public\Core">
+      <UniqueIdentifier>{61B4F181-7D2D-373A-BD8B-42A8054D01B3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PyroDroneCore\Public\Core\PyroDroneGameMode.h">
+      <Filter>Source\PyroDroneCore\Public\Core</Filter>
+    </ClInclude>
+    <Filter Include="Source\PyroDroneCore\Public\Fragments">
+      <UniqueIdentifier>{15400C5B-2D1B-3117-88B9-77FE36161155}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PyroDroneCore\Public\Fragments\PyroDroneFragments.h">
+      <Filter>Source\PyroDroneCore\Public\Fragments</Filter>
+    </ClInclude>
+    <Filter Include="Source\PyroDroneCore\Public\Processors">
+      <UniqueIdentifier>{200680E0-6A5C-3932-AEA1-0E3CCA199793}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PyroDroneCore\Public\Processors\PyroDroneProcessor.h">
+      <Filter>Source\PyroDroneCore\Public\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PyroDroneCore\Public\PyroDroneCore.h">
+      <Filter>Source\PyroDroneCore\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\PyroDroneCore\Public\UI">
+      <UniqueIdentifier>{EE9FCF7C-DBC5-383A-A283-8F5C3A991964}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PyroDroneCore\Public\UI\SPyroDroneCommandCenter.h">
+      <Filter>Source\PyroDroneCore\Public\UI</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PyroDroneCore\PyroDroneCore.Build.cs">
+      <Filter>Source\PyroDroneCore</Filter>
+    </None>
+    <ClInclude Include="..\..\Source\PyroDroneCore\PyroDroneCore.h">
+      <Filter>Source\PyroDroneCore</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PyroDroneMS.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PyroDroneMSEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Write-Host" />
+    <None Include="..\..\WriteArrayEnd()" />
+    <None Include="..\..\WriteArrayStart(performances)" />
+    <None Include="..\..\WriteArrayStart(samples)" />
+    <None Include="..\..\WriteObjectEnd()" />
+    <None Include="..\..\WriteObjectStart()" />
+    <None Include="..\..\WriteValue(agentId" />
+    <None Include="..\..\WriteValue(defaultPositionRate" />
+    <None Include="..\..\WriteValue(dh" />
+    <None Include="..\..\WriteValue(dx" />
+    <None Include="..\..\WriteValue(dy" />
+    <None Include="..\..\WriteValue(dz" />
+    <None Include="..\..\}" />
+  </ItemGroup>
+</Project>

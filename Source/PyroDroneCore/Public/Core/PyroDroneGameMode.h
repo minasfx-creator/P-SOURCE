@@ -1,14 +1,14 @@
-﻿#pragma once
+﻿
+#pragma once
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "MassEntitySubsystem.h"
 #include "MassCommonFragments.h"
 #include "MassRepresentationFragments.h"
 #include "Fragments/PyroDroneFragments.h"
-#include "PyroDroneGameMode.generated.h"
-
 UCLASS()
-class APyroDroneGameMode : public AGameModeBase {
+UCLASS()
+ {
     GENERATED_BODY()
 public:
     UFUNCTION(BlueprintCallable, Category = "PyroDrone")
@@ -31,3 +31,5 @@ public:
         }
     }
 };
+
+ #include "PyroDroneGameMode.generated.h"

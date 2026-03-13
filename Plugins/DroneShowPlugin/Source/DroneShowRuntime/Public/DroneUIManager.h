@@ -1,10 +1,11 @@
-﻿#pragma once
+﻿
+#pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-#include "DroneUIManager.generated.h"
-
+#include "Blueprint/UserWidget.h"
 UCLASS()
-class UDroneUIManager : public UObject
+UCLASS()
+
 {
     GENERATED_BODY()
 public:
@@ -22,3 +23,5 @@ private:
     TWeakObjectPtr<UUserWidget> MainWidget;
     TWeakObjectPtr<UUserWidget> IntroWidget;
 };
+
+ #include "DroneUIManager.generated.h"

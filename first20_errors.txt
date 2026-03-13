@@ -1,0 +1,1 @@
+﻿  Running Internal UnrealHeaderTool C:\u\p\PyroDroneMS.uproject C:\u\p\Intermediate\Build\Win64\PyroDroneMSEditor\Development\PyroDroneMSEditor.uhtmanifest -WarningsAsErrors -installed

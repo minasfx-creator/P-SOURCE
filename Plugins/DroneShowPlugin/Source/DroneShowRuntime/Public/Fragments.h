@@ -1,23 +1,27 @@
-﻿#pragma once
-#include "MassEntityTypes.h"
-#include "Fragments.generated.h"
+﻿
+#pragma once
+#include "CoreMinimal.h"
+
+#include "MassFragment.h"
+#include "MassEntityElementTypes.h"
+USTRUCT()
+USTRUCT()
+ GENERATED_BODY() UPROPERTY() FTransform Transform; };
 
 USTRUCT()
-struct FMassTransformFragment : public FMassFragment { GENERATED_BODY() UPROPERTY() FTransform Transform; };
+USTRUCT()
+ GENERATED_BODY() UPROPERTY() FVector Velocity; };
 
 USTRUCT()
-struct FDroneMassVelocityFragment : public FMassFragment { GENERATED_BODY() UPROPERTY() FVector Velocity; };
+USTRUCT()
+ GENERATED_BODY() UPROPERTY() FVector Force; };
 
 USTRUCT()
-struct FDroneMassForceFragment : public FMassFragment { GENERATED_BODY() UPROPERTY() FVector Force; };
+USTRUCT()
+ GENERATED_BODY() UPROPERTY() float Radius; };
 
 USTRUCT()
-struct FMassAgentRadiusFragment : public FMassFragment { GENERATED_BODY() UPROPERTY() float Radius; };
-
 USTRUCT()
-struct FDroneMassMovementParameters : public FMassFragment { GENERATED_BODY() UPROPERTY() float MaxSpeed; UPROPERTY() float MaxAccel; };
+ GENERATED_BODY() UPROPERTY() float MaxSpeed; UPROPERTY() float MaxAccel; };
 
-
-
-
-
+ #include "Fragments.generated.h"

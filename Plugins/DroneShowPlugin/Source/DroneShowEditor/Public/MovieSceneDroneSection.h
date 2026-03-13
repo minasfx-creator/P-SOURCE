@@ -1,11 +1,10 @@
-﻿#pragma once
+﻿
+#pragma once
 #include "CoreMinimal.h"
 #include "MovieSceneSection.h"
-#include "MovieSceneDroneSection.generated.h"
-
 USTRUCT()
-struct FDroneCue
-{
+USTRUCT()
+
     GENERATED_BODY()
     UPROPERTY(EditAnywhere) int32 AgentId;
     UPROPERTY(EditAnywhere) float Time;
@@ -15,10 +14,13 @@ struct FDroneCue
 };
 
 UCLASS()
-class UMovieSceneDroneSection : public UMovieSceneSection
+UCLASS()
+
 {
     GENERATED_BODY()
 public:
     UPROPERTY(EditAnywhere, Category="Drone")
     TArray<FDroneCue> Cues;
 };
+
+ #include "MovieSceneDroneSection.generated.h"

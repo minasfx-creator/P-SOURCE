@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PyroDroneMS",
+			"Path": "..\\Source\\PyroDroneMS.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PyroDroneMSEditor",
+			"Path": "..\\Source\\PyroDroneMSEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

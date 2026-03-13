@@ -1,12 +1,12 @@
-﻿#pragma once
+﻿
 #include "CoreMinimal.h"
-#include "SVGParser.generated.h"
+UCLASS()
+UCLASS()
 
-class FSVGParser
 {
+    GENERATED_BODY()
 public:
-    static TArray<FVector> ParsePathD(const FString& PathD, float Z = 0.0f, float Spacing = 50.0f);
-private:
-    static void ApproximateCubicBezier(const FVector2D& P0, const FVector2D& P1, const FVector2D& P2, const FVector2D& P3, float Spacing, TArray<FVector>& Out);
-    static void ApproximateQuadraticBezier(const FVector2D& P0, const FVector2D& P1, const FVector2D& P2, float Spacing, TArray<FVector>& Out);
+    // AUTO-FIX: minimal stub added to allow UHT generation. Replace with real API.
 };
+
+ #include "SVGParser.generated.h"

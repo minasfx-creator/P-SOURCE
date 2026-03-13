@@ -1,11 +1,10 @@
-﻿#pragma once
+﻿
+#pragma once
 #include "CoreMinimal.h"
-#include "MovieSceneEvalTemplate.h"
-#include "MovieSceneDroneEvalTemplate.generated.h"
-
+#include "Evaluation/MovieSceneEvalTemplate.h"
 USTRUCT()
-struct FMovieSceneDroneEvalTemplate : public FMovieSceneEvalTemplate
-{
+USTRUCT()
+
     GENERATED_BODY()
     UPROPERTY()
     UObject* BakedDataAsset;
@@ -13,3 +12,5 @@ struct FMovieSceneDroneEvalTemplate : public FMovieSceneEvalTemplate
     virtual UScriptStruct& GetScriptStructImpl() const override { return *StaticStruct(); }
     virtual void Evaluate(const FMovieSceneEvaluationOperand& Operand, const FMovieSceneContext& Context, const FPersistentEvaluationData& PersistentData, FMovieSceneExecutionTokens& ExecutionTokens) const override;
 };
+
+ #include "MovieSceneDroneEvalTemplate.generated.h"
