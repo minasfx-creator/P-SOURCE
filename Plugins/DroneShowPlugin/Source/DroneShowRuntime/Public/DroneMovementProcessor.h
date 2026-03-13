@@ -1,5 +1,9 @@
 ﻿#pragma once
+#include "CoreMinimal.h"
 #include "MassProcessor.h"
+#include "MassEntityQuery.h"
+#include "MassExecutionContext.h"
+#include "MassEntitySubsystem.h"
 #include "Fragments.h"
 #include "DroneMovementProcessor.generated.h"
 

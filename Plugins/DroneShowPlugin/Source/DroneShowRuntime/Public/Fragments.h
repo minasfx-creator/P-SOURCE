@@ -1,5 +1,6 @@
 ﻿#pragma once
-#include "MassEntityTypes.h"
+#include "CoreMinimal.h"
+#include "MassEntityFragment.h"
 #include "Fragments.generated.h"
 
 USTRUCT()
