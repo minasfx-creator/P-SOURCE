@@ -6,14 +6,20 @@ public class DroneShowEditor : ModuleRules
     public DroneShowEditor(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-            // Auto-inserted editor dependencies
-            PrivateDependencyModuleNames.Add("ScriptableToolsFramework");
-            PrivateDependencyModuleNames.Add("NiagaraEditor");
-            PrivateDependencyModuleNames.Add("MovieScene");
-            // Added by automated fix: editor-only dependencies
-            PrivateDependencyModuleNames.Add("ScriptableToolsFramework");
-            PrivateDependencyModuleNames.Add("NiagaraEditor");
-        PrivateDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "UnrealEd", "EditorStyle", "Slate", "SlateCore", "NiagaraEditor" });
+
+        PublicDependencyModuleNames.AddRange(new string[]
+        {
+            "Core", "CoreUObject", "Engine",
+            "MovieScene", "MovieSceneTracks"
+        });
+
+        PrivateDependencyModuleNames.AddRange(new string[]
+        {
+            "UnrealEd", "EditorStyle",
+            "Slate", "SlateCore",
+            "Niagara", "NiagaraEditor",
+            "ScriptableToolsFramework"
+        });
     }
 }
 
