@@ -1,0 +1,12 @@
+﻿using UnrealBuildTool;
+public class DroneShowEditor : ModuleRules
+{
+    public DroneShowEditor(ReadOnlyTargetRules Target) : base(Target)
+    {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+        PublicDependencyModuleNames.AddRange(new string[] {
+            "Core", "CoreUObject", "Engine", "InputCore", "UnrealEd", "ToolMenus",
+            "EditorStyle", "LevelEditor", "Sequencer", "MovieScene", "MassEntity", "Niagara", "DMX", "AudioSynesthesia"
+        });
+    }
+}

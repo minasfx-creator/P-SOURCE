@@ -1,0 +1,8 @@
+﻿
+Name             FullName                                              
+----             --------                                              
+DroneShowEditor  C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowEditor 
+DroneShowNiagara C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowNiagara
+DroneShowRuntime C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime
+
+

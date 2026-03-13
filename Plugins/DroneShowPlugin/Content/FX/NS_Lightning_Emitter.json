@@ -1,0 +1,13 @@
+﻿{
+  "EmitterName": "E_Lightning_Beam",
+  "Modules": [
+    { "Module": "SpawnBurst", "BurstCountParam": "SpawnBurstCount" },
+    { "Module": "Lifetime", "Min": 0.06, "MaxParam": "StrikeDuration" },
+    { "Module": "Size", "Start": 8.0, "End": 0.5 },
+    { "Module": "ColorOverLife", "Gradient": ["#FFFFFF","#A6F0FF","#66D0FF"] },
+    { "Module": "BeamTension", "Value": 0.5 },
+    { "Module": "NoisePosition", "Amplitude": 40.0, "Frequency": 8.0 },
+    { "Module": "LightSpawn", "PointLightIntensityParam": "Intensity", "LightLifetimeParam": "StrikeDuration" }
+  ],
+  "Performance": { "MaxParticlesPerBurst": 64, "UseCPUEmitter": true }
+}

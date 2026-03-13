@@ -1,0 +1,35 @@
+﻿#include "ArtNetSender.h"
+#include "SocketSubsystem.h"
+
+bool FArtNetSender::SendArtNetUniverse(const FString& Host, int32 Port, int32 Universe, const TArray<uint8>& Data)
+{
+    ISocketSubsystem* SocketSubsystem = ISocketSubsystem::Get(PLATFORM_SOCKETSUBSYSTEM);
+    if (!SocketSubsystem) return false;
+    TSharedRef<FInternetAddr> Addr = SocketSubsystem->CreateInternetAddr();
+    bool bIsValid = false;
+    Addr->SetIp(*Host, bIsValid);
+    Addr->SetPort(Port);
+    if (!bIsValid) return false;
+
+    FSocket* Socket = SocketSubsystem->CreateSocket(NAME_DGram, TEXT("ArtNetSocket"), true);
+    if (!Socket) return false;
+
+    Socket->SetReuseAddr(true);
+    Socket->SetNonBlocking(true);
+
+    TArray<uint8> Packet;
+    Packet.Append({ 0x41,0x72,0x74,0x2d,0x4e,0x65,0x74,0x00 }); // "Art-Net\0"
+    Packet.Add(0x00); Packet.Add(0x50); // OpCode low/high (ArtDMX)
+    Packet.Add(0x00); Packet.Add(14);   // ProtVerHi/Lo
+    Packet.Add(0x00); Packet.Add(0x00); // Sequence, Physical
+    Packet.Add((uint8)(Universe & 0xFF)); Packet.Add((uint8)((Universe >> 8) & 0xFF));
+    int Len = Data.Num();
+    Packet.Add((uint8)((Len >> 8) & 0xFF)); Packet.Add((uint8)(Len & 0xFF));
+    Packet.Append(Data);
+
+    int32 BytesSent = 0;
+    bool bOk = Socket->SendTo(Packet.GetData(), Packet.Num(), BytesSent, *Addr);
+    Socket->Close();
+    SocketSubsystem->DestroySocket(Socket);
+    return bOk;
+}

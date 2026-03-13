@@ -1,0 +1,8 @@
+﻿
+Name             Type    LoadingPhase  
+----             ----    ------------  
+DroneShowEditor  Editor  Default       
+DroneShowRuntime Runtime PostEngineInit
+DroneShowNiagara Runtime PostEngineInit
+
+

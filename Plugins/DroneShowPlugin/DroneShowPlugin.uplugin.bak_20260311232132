@@ -1,0 +1,26 @@
+﻿{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1",
+  "FriendlyName": "Drone Show Plugin",
+  "Description": "Plugin modular para edição, simulação e exportação de shows com drones, DMX e pirotecnia.",
+  "Category": "Production",
+  "EnabledByDefault": true,
+  "Modules": [
+    {
+      "Name": "DroneShowEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "DroneShowRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "PostEngineInit"
+    },
+    {
+      "Name": "DroneShowNiagara",
+      "Type": "Runtime",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿FixtureID,Manufacturer,Model,ChannelStart,ChannelCount,Function1,Function2,Notes
+1,BrandX,ModelY,1,16,Dimmer,Strobe,Main stage front
+2,BrandX,ModelY,17,16,Pan,Tilt,Follow spot
+3,BrandZ,ModelA,33,8,ColorWheel,Shutter,Accent lights
+4,BrandW,ModelB,41,8,Dimmer,ColorMix,Side wash

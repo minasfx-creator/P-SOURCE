@@ -1,0 +1,53 @@
+﻿{
+  "SystemName": "NS_Lightning_System",
+  "Description": "Lightning system for show strikes. CPU emitter + beam + point light spawn.",
+  "UserParameters": {
+    "SpawnBurstCount": { "Type": "int", "Default": 1 },
+    "StrikeDuration": { "Type": "float", "Default": 0.18 },
+    "Intensity": { "Type": "float", "Default": 2.0, "Min": 0.1, "Max": 6.0 },
+    "StrikePosition": { "Type": "vector", "Default": [0,0,0] },
+    "StrikeSeed": { "Type": "int", "Default": 0 },
+    "DMX_Channel": { "Type": "int", "Default": 1 }
+  },
+  "Emitters": [
+    {
+      "Name": "E_Lightning_Beam",
+      "Type": "Beam",
+      "Spawn": {
+        "Mode": "Burst",
+        "BurstCountParam": "SpawnBurstCount",
+        "BurstInterval": 0.0
+      },
+      "Lifetime": { "Min": 0.06, "MaxParam": "StrikeDuration" },
+      "Size": { "Start": 8.0, "End": 0.5 },
+      "ColorOverLife": { "Gradient": ["#FFFFFF","#A6F0FF","#66D0FF"] },
+      "Noise": { "Amplitude": 40.0, "Frequency": 8.0 },
+      "Renderer": "BeamRenderer",
+      "LightSpawn": {
+        "SpawnPointLight": true,
+        "IntensityScaleParam": "Intensity",
+        "LightLifetimeParam": "StrikeDuration"
+      }
+    },
+    {
+      "Name": "E_ForkParticles",
+      "Type": "Sprite",
+      "Spawn": { "Mode": "Burst", "BurstCount": 6 },
+      "Lifetime": { "Min": 0.04, "Max": 0.25 },
+      "Size": { "Start": 2.0, "End": 0.2 },
+      "ColorOverLife": { "Gradient": ["#FFFFFF","#BFEFFF","#66D0FF"] },
+      "Jitter": { "Radius": 30.0 }
+    }
+  ],
+ 
+
+
+
+
+ "Bindings": [
+    { "Event": "OnSpawn", "Action": "SetPosition", "Parameter": "StrikePosition" },
+    { "Event": "OnSpawn", "Action": "SetSeed", "Parameter": "StrikeSeed" },
+    { "Event": "OnSpawn", "Action": "SetIntensity", "Parameter": "Intensity" }
+  ],
+  "UsageNotes": "Trigger via Blueprint: set StrikePosition, StrikeSeed, then Activate Burst. Also send DMX packet to DMX_Channel for synchronized lighting desk strobe."
+}

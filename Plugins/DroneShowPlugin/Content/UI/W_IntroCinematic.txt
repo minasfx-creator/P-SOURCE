@@ -1,0 +1,1 @@
+﻿Placeholder: Create UMG Widget W_IntroCinematic with animations FadeIn, TypeWrite, WipeOut and bind to LS_Intro.

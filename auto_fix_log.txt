@@ -1,0 +1,36 @@
+﻿
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowEditor_Private_MovieSceneDroneTrack.cpp
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_GDTFParser.h
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_DroneMovementProcessor.h
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowNiagara_Public_NiagaraDataInterfaceDroneArray.h
+2026-03-12 19:46:22	Arquivo não encontrado (ignorando): C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowNiagara\Public\DroneShowDataBridge.h
+2026-03-12 19:46:22	Arquivo não encontrado (ignorando): C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\SVGParser.generated.h
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_DroneShowRuntime.Build.cs
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowNiagara_DroneShowNiagara.Build.cs
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowNiagara_Private_NiagaraDataInterfaceDroneArray.cpp
+2026-03-12 19:46:22	Arquivo não encontrado (ignorando): C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\MassEntityTypes.h
+2026-03-12 19:46:22	Arquivo não encontrado (ignorando): C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\MassProcessor.h
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowEditor_DroneShowEditor.Build.cs
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowEditor_Public_MovieSceneDroneEvalTemplate.h
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Private_DroneShowDataBridge.cpp
+2026-03-12 19:46:22	Arquivo não encontrado (ignorando): C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\Public\XmlParser.h
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowEditor_Public_DroneFormationTool.h
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_SVGParser.h
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_Public_Fragments.h
+2026-03-12 19:46:22	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_DroneShowPlugin.uplugin
+2026-03-12 19:46:22	uplugin atualizado. Niagara added: False, ScriptableToolsFramework added: True
+2026-03-12 19:46:23	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowEditor_DroneShowEditor.Build.cs
+2026-03-12 19:46:23	Linhas de dependência inseridas em C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowEditor\DroneShowEditor.Build.cs
+2026-03-12 19:46:23	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowRuntime_DroneShowRuntime.Build.cs
+2026-03-12 19:46:23	Linhas de dependência inseridas em C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowRuntime\DroneShowRuntime.Build.cs
+2026-03-12 19:46:23	Backup criado: C:\u\p\BuildBackups\FullAutoFix_20260312_194621\u_p_Plugins_DroneShowPlugin_Source_DroneShowNiagara_DroneShowNiagara.Build.cs
+2026-03-12 19:46:23	Linhas de dependência inseridas em C:\u\p\Plugins\DroneShowPlugin\Source\DroneShowNiagara\DroneShowNiagara.Build.cs
+2026-03-12 19:46:23	Stub DroneShowDataBridge.h criado: System.Collections.Hashtable.DroneShowDataBridgeHeader
+2026-03-12 19:46:24	Stub MassEntityTypes.h criado: System.Collections.Hashtable.MassEntityTypesStub
+2026-03-12 19:46:24	Regenerando project files com UnrealBuildTool...
+2026-03-12 19:46:36	Regeneração concluída.
+2026-03-12 19:46:36	vswhere não encontrado. Abra a solução no Visual Studio e execute Rebuild manualmente.
+2026-03-12 19:46:36	=== Script concluído ===
+2026-03-12 19:46:36	Backups salvos em: C:\u\p\BuildBackups\FullAutoFix_20260312_194621
+2026-03-12 19:46:36	Log detalhado em: C:\u\p\auto_fix_log.txt
+2026-03-12 19:46:36	Revise todos os arquivos marcados com TODO e substitua stubs por implementações reais.

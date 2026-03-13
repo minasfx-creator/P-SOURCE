@@ -1,0 +1,12 @@
+﻿{
+    "FileVersion": 3, "Version": 5, "VersionName": "5.0",
+    "FriendlyName": "PyroDrone Master Studio",
+    "Description": "Made by professionals - Like You!",
+    "Category": "Enterprise",
+    "Modules": [{ "Name": "PyroDroneCore", "Type": "Runtime", "LoadingPhase": "Default" }],
+    "Plugins": [
+        {"Name": "MassEntity", "Enabled": true},
+        {"Name": "DMXRuntime", "Enabled": true},
+        {"Name": "AudioSynesthesia", "Enabled": true}
+    ]
+}

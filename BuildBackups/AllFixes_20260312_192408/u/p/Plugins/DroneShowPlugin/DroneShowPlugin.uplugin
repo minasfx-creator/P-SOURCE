@@ -1,0 +1,20 @@
+﻿{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.3",
+  "FriendlyName": "Drone Show Plugin",
+  "Description": "Refined plugin for drone shows, simulation, DMX and MAVLink integration.",
+  "Category": "Production",
+  "EnabledByDefault": true,
+  "Modules": [
+    { "Name": "DroneShowEditor", "Type": "Editor", "LoadingPhase": "Default" },
+    { "Name": "DroneShowRuntime", "Type": "Runtime", "LoadingPhase": "PostEngineInit" },
+    { "Name": "DroneShowNiagara", "Type": "Runtime", "LoadingPhase": "PostEngineInit" }
+  ],
+  "Plugins": [
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    }
+  ]
+}

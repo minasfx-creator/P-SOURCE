@@ -1,0 +1,9 @@
+﻿
+FullName                                   
+--------                                   
+C:\Program Files\Epic Games\DirectXRedist  
+C:\Program Files\Epic Games\Launcher       
+C:\Program Files\Epic Games\RealityScan_2.1
+C:\Program Files\Epic Games\UE_5.7         
+
+
